@@ -1,9 +1,6 @@
 # Entity - 2023-05-16 21:16:50.878485802 -0300 -03 m=+198.050238951
 
-
-#arkency
-#fleeting
-
+tags: #arkency #fleeting
 
 ## Entity
 
