@@ -1,5 +1,7 @@
 # Domain Events - 2023-05-21 20:11:55.863460179 -0300 -03 m=+7963.910452690
 
+tags: #arkency
+
 Domain Events are structures to describe what happened in your app.
 
 ## Anatomy of a Domain Event
