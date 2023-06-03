@@ -1,23 +1,24 @@
 # Full Cycle
 
 ## Docker
-[[q06j]]
-[[b85r]]
-[[afrd]]
-[[qlfs]]
-[[epk1]]
-[[ob9w]]
-[[ykns]]
+
+*   \[\[q06j]]
+*   \[\[b85r]]
+*   \[\[afrd]]
+*   \[\[qlfs]]
+*   \[\[epk1]]
+*   \[\[ob9w]]
+*   \[\[ykns]]
 
 ## Fundamentos da Arquitetura de Software
 
-[[software-architecture-2023-05-16-212034792123326-0300-03-m206953824897]]
+\[\[software-architecture-2023-05-16-212034792123326-0300-03-m206953824897]]
 
 ## Comunicação entre sistemas
 
-[[system-communications-2023-06-02-230312185583668-0300-03-m0013861547]]
+\[\[system-communications-2023-06-02-230312185583668-0300-03-m0013861547]]
 
-## SOLID 
+## SOLID
 
 ## Domain Driven Design
 
@@ -74,5 +75,3 @@
 ## Gitops
 
 ## Deploy na cloud
-
-
