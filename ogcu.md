@@ -1,9 +1,8 @@
 # A rails performance guidebook - 2023-05-16 21:19:17.683251904 -0300 -03 m=+129.844953465
 
-#fleeting
-#conf
-#performance
-#rails
+tags: #fleeting #conf #performance #rails
+  
+
 
 ## Monitoring
 
