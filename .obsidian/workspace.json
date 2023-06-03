@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "n1ec.md",
+                "file": "domain-driven-rails.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fleeting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "n1ec.md",
+                "file": "domain-driven-rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "n1ec.md",
+                "file": "domain-driven-rails.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "n1ec.md"
+                "file": "domain-driven-rails.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "9b71e8a71f6a37b6",
   "lastOpenFiles": [
+    "1cur.md",
+    "i7p6.md",
+    "dzy5.md",
+    "jrp9.md",
+    "cwes.md",
+    "n1ec.md",
     "233i.md",
     "z3pv.md",
     "wmva.md",
@@ -156,7 +162,6 @@
     "domain-driven-rails.md",
     "2023-06-03.md",
     "Untitled.canvas",
-    "jrp9.md",
     "4r7d.md",
     "ogcu.md",
     "attachments/Pasted image 20230219201956.png.md",
@@ -167,15 +172,10 @@
     "r2yo.md",
     "1n6b.md",
     "13zw.md",
-    "dzy5.md",
-    "n1ec.md",
     "aaae.md",
     "ig3o.md",
     "3yaz.md",
     "ob9w.md",
-    "owxi.md",
-    "9uzw.md",
-    "9dbz.md",
-    "jk85.md"
+    "owxi.md"
   ]
 }
