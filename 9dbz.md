@@ -1,5 +1,7 @@
 # Debugging rails itself - 2023-05-15 00:42:08.066379912 -0300 -03 m=+3504.898151876
 
+tags: #rails #debugging #talks 
+
 ## What are bugs
 
 The term originates from the days of vacuum tubes computers

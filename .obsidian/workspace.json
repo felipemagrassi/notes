@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "7cceeb6d9c015e78",
+    "type": "split",
+    "children": [
+      {
+        "id": "64f1a2af12a2ab8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b71e8a71f6a37b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "n1ec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6c3fabbde3a17a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa42e761522270ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a16760fb3c50df36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8e5cd2a1e88c9b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83d1d23b6a0234b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0795595a5b8fedc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e485bb9a064508b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b02f65594c6370d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "n1ec.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f2d791273b4225f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "n1ec.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92b5dad976c2b9a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "32630750e6947b3a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "n1ec.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9b71e8a71f6a37b6",
+  "lastOpenFiles": [
+    "233i.md",
+    "z3pv.md",
+    "wmva.md",
+    "um9t.md",
+    "lefthook.yml",
+    "domain-driven-rails.md",
+    "2023-06-03.md",
+    "Untitled.canvas",
+    "jrp9.md",
+    "4r7d.md",
+    "ogcu.md",
+    "attachments/Pasted image 20230219201956.png.md",
+    "attachments",
+    "m5sc.md",
+    "afqx.md",
+    "l6v7.md",
+    "r2yo.md",
+    "1n6b.md",
+    "13zw.md",
+    "dzy5.md",
+    "n1ec.md",
+    "aaae.md",
+    "ig3o.md",
+    "3yaz.md",
+    "ob9w.md",
+    "owxi.md",
+    "9uzw.md",
+    "9dbz.md",
+    "jk85.md"
+  ]
+}

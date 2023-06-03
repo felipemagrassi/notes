@@ -1,5 +1,7 @@
 # Activerecord GC usage - 2023-05-15 00:29:17.747146262 -0300 -03 m=+2734.578918226
 
+tags: #ruby #performance #rails 
+
 How to use GC with activerecord.
 
 ```ruby

@@ -1,5 +1,7 @@
 # Streaming globs in ruby - 2023-05-15 00:39:22.149132125 -0300 -03 m=+3338.980904089
 
+tags: #ruby #performance 
+
 ```ruby
 require 'csv'
 

@@ -110,7 +110,7 @@ end
 ## Benchmark-IPS
 
 *   Benchmark requires a good number of repetitions through trial and error, Benchmark-IPS solves that
-*   Benchmark #bmbm requires a good number of columns to be perfectly aligned, Benchmark-IPS solves that
+*   Benchmark `#bmbm` requires a good number of columns to be perfectly aligned, Benchmark-IPS solves that
 *   Benchmark results are not sorted during runtime, Benchmark-IPS solves that
 
 ```ruby
@@ -157,4 +157,4 @@ Comparison:
 
 ```
 
-IPS also gives a #compare! method, to easily compare reports, one problem that Benchmark can solve and IPS cant is given the system/real/user time, comparing problems within application
+IPS also gives a `#compare!` method, to easily compare reports, one problem that Benchmark can solve and IPS cant is given the system/real/user time, comparing problems within application

@@ -34,6 +34,7 @@ tags: #fleeting #book
 
 **Third we need to identify the roles:**
 
+```
 | Message                     | Receiver Role     |
 | --------------------------- | ----------------- |
 | `#parse_csv_purchase_records` | csv\_data\_parser   |
@@ -44,6 +45,7 @@ tags: #fleeting #book
 | `#add_purchased_product`  | customer          |
 | `#notify_of_files_available` | customer          |
 | `#log_successful_import`| data\_importer     |
+```
 
 *parse\_csv\_puchase\_records and csv\_data\_parser is redundant, so we can remove the first one*
 
@@ -115,7 +117,7 @@ puts now.to_str # this will raise an exception
     now responds_to(:to_str) false
     2023-02-18 17:59:41 -0300
 
-Ruby uses #to\_str to verify that an object can be converted to a string. If an object does not respond to #to\_str, ruby will raise an exception. This is a good thing, because it means that we can be sure that an object can be converted to a string, and we can be sure that the result of that conversion will be a string.
+Ruby uses `#to_str` to verify that an object can be converted to a string. If an object does not respond to `#to_str`, ruby will raise an exception. This is a good thing, because it means that we can be sure that an object can be converted to a string, and we can be sure that the result of that conversion will be a string.
 
 ```ruby
 class ArticleTitle
@@ -152,12 +154,13 @@ puts "Today's article title #{'is + ' + title}"
 
 Ruby core library doesn't use explicits conversions, so those using ruby core library can be sure that the objects they are using will respond to the messages they are sending to them. If you are using a gem, you should check the documentation to see if the gem uses explicit conversions.
 
+```
 | Method     | Target Class | Type     |
 | ---------- | ------------ | -------- |
-| #to\_ary    | Array        | Implicit |
-| #to\_a      | Array        | Explicit |
-| #to\_c      | Complex      | Explicit |
-| #to\_enum   | Enumerator   | Explicit |
+| `#to_ary`    | Array        | Implicit |
+| `#to_a`      | Array        | Explicit |
+| `#to_c`      | Complex      | Explicit |
+| #to\_enum`   | Enumerator   | Explicit |
 | #to\_h      | Hash         | Explicit |
 | #to\_hash   | Hash         | Implicit |
 | #to\_i      | Integer      | Explicit |
@@ -171,7 +174,7 @@ Ruby core library doesn't use explicits conversions, so those using ruby core li
 | #to\_r      | Rational     | Explicit |
 | #to\_regexp | Regexp       | Implicit |
 | #to\_sym    | String       | Implicit |
-
+```
 ### Explicit Conversion example
 
 ```ruby

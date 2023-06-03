@@ -1,5 +1,7 @@
 # Docker Networks - 2023-05-16 21:23:12.657489742 -0300 -03 m=+364.819191303
 
+tags: #docker #full-cycle 
+
 ### bridge
 
 Default network. Containers are connected to this network by default.
