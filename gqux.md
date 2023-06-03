@@ -1,6 +1,6 @@
 # Using rspec tags - 2023-05-14 23:30:19.804232828 -0300 -03 m=+0.010685582
 
-using #rspec tags to filter tests 
+using #rspec tags to filter tests
 
 ```ruby
 
