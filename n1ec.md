@@ -1,7 +1,6 @@
 # Confident Ruby - 2023-05-16 21:17:44.349233259 -0300 -03 m=+36.510934830
 
-#fleeting
-#book
+tags: #fleeting #book
 
 ## Performing with confidence
 
@@ -37,14 +36,14 @@
 
 | Message                     | Receiver Role     |
 | --------------------------- | ----------------- |
-| #parse\_csv\_purchase\_records | csv\_data\_parser   |
-| #each                       | purchase\_list     |
-| #email\_address, #product\_id | #purchase\_record  |
-| #find\_or\_create\_customer    | customer\_list     |
-| #find\_or\_create\_product     | product\_inventory |
-| #add\_purchased\_product      | customer          |
-| #notify\_of\_files\_available  | customer          |
-| #log\_successful\_import      | data\_importer     |
+| `#parse_csv_purchase_records` | csv\_data\_parser   |
+| `#each`                       | purchase\_list     |
+| `#email_address, #product_id `| purchase\_record  |
+| `#find_or_create_customer`   | customer\_list     |
+| `#find_or_create_product`   | product\_inventory |
+| `#add_purchased_product`  | customer          |
+| `#notify_of_files_available` | customer          |
+| `#log_successful_import`| data\_importer     |
 
 *parse\_csv\_puchase\_records and csv\_data\_parser is redundant, so we can remove the first one*
 
@@ -245,4 +244,3 @@ my_open("file.txt")
 *Results:* `file opened`
 
 This checks both String and Pathname objects, and it doesn't change the behavior of the String class, while also blocking other objects from being passed to the method.
-
