@@ -1,22 +1,7 @@
 # A rails performance guidebook - 2023-05-16 21:19:17.683251904 -0300 -03 m=+129.844953465
 
-<!--toc:start-->
-- [A rails performance guidebook - 2023-05-16 21:19:17.683251904 -0300 -03 m=+129.844953465](#a-rails-performance-guidebook-2023-05-16-211917683251904-0300-03-m129844953465)
-  - [Monitoring](#monitoring)
-  - [Use db indexes](#use-db-indexes)
-  - [Use `explain` to check the query plan](#use-explain-to-check-the-query-plan)
-  - [Greedy Selects](#greedy-selects)
-  - [Caching](#caching)
-    - [Is 40ms a lot?](#is-40ms-a-lot)
-    - [Complex DB queries](#complex-db-queries)
-  - [Cold Storage](#cold-storage)
-  - [Heavy endpoints](#heavy-endpoints)
-  - [Divide data into multiple requests](#divide-data-into-multiple-requests)
-  - [Async requests vs Sync requests](#async-requests-vs-sync-requests)
-  - [An excessive persuit of perfection can be counterproductive](#an-excessive-persuit-of-perfection-can-be-counterproductive)
-<!--toc:end-->
-
 tags: #fleeting #conf #performance #rails
+  
 
 
 ## Monitoring
