@@ -6,3 +6,6 @@ tags: #arkency #fleeting
 
 Something that has an identity, something that can be tracked through time,
 something that can be tracked through changes.
+
+[[domain-driven-rails]]
+

@@ -144,3 +144,6 @@ basket_item.save!
 
 Editing the item directly, and not using the aggregate root. This is a problem, because we are not protecting the business rules
 of the aggregate, so using ActiveRecord requires a lot of discipline to protect the business rules from the team.
+
+[[domain-driven-rails]]
+

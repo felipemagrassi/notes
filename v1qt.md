@@ -175,3 +175,6 @@ class OrdersService
 end
 
 ```
+
+[[domain-driven-rails]]
+

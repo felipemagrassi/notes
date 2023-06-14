@@ -1,7 +1,6 @@
 # Value Objects - 2023-06-03 10:26:47.977239326 -0300 -03 m=+282.025580752
 
 Value Objects are objects with no identify.
-
 Since they have no identity, comparing them is possible
 
 ```ruby
@@ -178,4 +177,7 @@ Klass.in_year( SchoolYear.new(2014, 2015) )
 *   No identity
 *   Values comparable
 *   Compound attributes
+
+
+[[domain-driven-rails]]
 

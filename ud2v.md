@@ -106,3 +106,5 @@ RSpec.describe InvoiceCalendar do
 end
 
 ```
+
+[[domain-driven-rails]]

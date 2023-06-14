@@ -12,11 +12,12 @@
 
 ## Fundamentos da Arquitetura de Software
 
-[[software-architecture-2023-05-16-212034792123326-0300-03-m206953824897]]
+
+[[cwes]]
 
 ## Comunicação entre sistemas
 
-[[system-communications-2023-06-02-230312185583668-0300-03-m0013861547]]
+[[z3pv]]
 
 ## SOLID 
 

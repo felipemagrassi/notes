@@ -475,3 +475,5 @@ module Season
   end
 end
 ```
+
+[[domain-driven-rails]]

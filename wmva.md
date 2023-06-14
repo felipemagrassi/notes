@@ -20,11 +20,43 @@ a large system into Bounded Contexts, each having a unified model.
 Imagine a system that have many perspectives on the same data, maybe, forecasting,
 pricing, inventory, sales, etc. Each of these departments will have a different
 perspective on the same data and different needs. DDD creates smaller models
-to clear the data ownership per department. Having a Sales::Product, Pricing::Product
-Invetory::Product, with their own attributes and methods, and a shared
+to clear the data ownership per department. 
+
+Having a Sales::Product, Pricing::Product, Invetory::Product, 
+with their own attributes and methods, and a shared
 Product::Product that will be used by all of them. Meaning that a quantity
 attribute will be used by Inventory::Product, but not by Sales::Product.
 A price attribute can only be changed by Pricing::Product, but not by
 Inventory::Product.
 
+## Recommended Reading
 
+* [Domain Driven Design](https://www.amazon.com.br/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+
+In DDD we have approaches/relationships between Bounded Contexts:
+
+** Shared Kernel
+** Customer/Supplier Development Teams
+** Conformist
+** Anti-Corruption Layer
+** Separate Ways
+** Open Host Service
+** Published Language
+
+* [Domain Driven Design Distilled](https://www.amazon.com.br/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420)
+
+In DDDD we have pros and cons to communicate between Bounded Contexts:
+
+** RPC with SOAP
+** RESTful HTTP
+** Messaging
+
+Task Based UI:
+
+[Task Based UI](https://cqrs.wordpress.com/documents/task-based-ui/)
+
+Martin Fowler on Bounded Contexts:
+
+[Martin Fowler on Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html)
+
+[[domain-driven-rails]]

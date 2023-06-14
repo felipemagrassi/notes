@@ -166,9 +166,11 @@ Queries are used to retrieve data from the server.
 
 When a query is executed, the GraphQL engine will call the resolvers to retrieve the data.
 
+### Working with chained requests
 
-
-
+GraphQL can create a resolver from a specific model.
+This allows the developer to create a resolver that will retrieve
+the data from a specific model.
 
 ## gRPC
 

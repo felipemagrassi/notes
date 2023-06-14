@@ -271,3 +271,6 @@ end
 
 Rails.configuration.event_store.subscribe_to_all_events(LinkToDailyStream.new)
 ```
+
+[[domain-driven-rails]]
+
