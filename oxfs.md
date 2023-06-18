@@ -182,7 +182,7 @@ class Basket < ActiveRecord::Base
     @unpublished_events ||= []
   end
 
-  after_save do
+  after_commit do
     unpublished_events.each do |ev|
       event_store.publish(ev, stream_name: "Basket$#{id}")
     end

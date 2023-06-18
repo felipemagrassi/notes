@@ -1,9 +1,7 @@
 # Rails Architect MasterClass
 
-## Strategic DDD
-
-
-
-## Tactical DDD
-
+[Ubiquitous Language](6505)
+[Event Storming](lk8e))
+[Domain Safari](mie7)
+[Departments / Business Model](mmss)
 
