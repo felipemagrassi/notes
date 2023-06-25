@@ -2,16 +2,15 @@
 
 ## Docker
 
-* [[q06j]]
-* [[b85r]]
-* [[afrd]]
-* [[qlfs]]
-* [[epk1]]
-* [[ob9w]]
-* [[ykns]]
+- [[q06j]]
+- [[b85r]]
+- [[afrd]]
+- [[qlfs]]
+- [[epk1]]
+- [[ob9w]]
+- [[ykns]]
 
 ## Fundamentos da Arquitetura de Software
-
 
 [[cwes]]
 
@@ -19,7 +18,7 @@
 
 [[z3pv]]
 
-## SOLID 
+## SOLID
 
 ## Domain Driven Design
 
@@ -76,5 +75,3 @@
 ## Gitops
 
 ## Deploy na cloud
-
-
