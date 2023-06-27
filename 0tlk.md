@@ -44,11 +44,11 @@ This is not feasible in a real world where 1000 customers are buying things at t
 
 So when thinking about how big aggregates should be, we need to think some things:
 
-*   What business rules it needs to protect
-    *   Which of them need to be protected in a single transaction
-    *   Which of them could be delayed a few seconds with eventual consistency
-*   How often is it going to be changed in the worst case ( 1000 times per second? 100 times per second? 10 times per second? )
-*   How many separate users will be changing it at the same time?
+- What business rules it needs to protect
+  - Which of them need to be protected in a single transaction
+  - Which of them could be delayed a few seconds with eventual consistency
+- How often is it going to be changed in the worst case ( 1000 times per second? 100 times per second? 10 times per second? )
+- How many separate users will be changing it at the same time?
 
 ## Updating aggregates
 
@@ -73,13 +73,13 @@ some event, the number of tickets sold by some event in some category, and so on
 
 One way to implement it, it using one database transaction
 
-*   open transaction
-*   place order
-*   update Venue object and check business rules
-*   change Inventory object and check business rules
-*   update Balance
-*   do some other stuff
-*   commit
+- open transaction
+- place order
+- update Venue object and check business rules
+- change Inventory object and check business rules
+- update Balance
+- do some other stuff
+- commit
 
 In most scenarios, this is ok and works. But there is a small potential problem here. Saying that the transaction
 takes 0.2s, and it takes about to 0.6s to finish all the operations, this could be painful in some cases,
@@ -146,4 +146,3 @@ Editing the item directly, and not using the aggregate root. This is a problem, 
 of the aggregate, so using ActiveRecord requires a lot of discipline to protect the business rules from the team.
 
 [[domain-driven-rails]]
-
