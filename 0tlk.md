@@ -1,5 +1,7 @@
 # Aggregates - 2023-05-18 21:30:33.003747084 -0300 -03 m=+0.013695721
 
+---
+
 tags: #arkency #domain-driven-rails
 
 Aggregates are a collection of objects that are bound together by a root entity,

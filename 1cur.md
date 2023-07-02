@@ -4,8 +4,10 @@ tags: #arkency #fleeting
 
 ## Entity
 
-Something that has an identity, something that can be tracked through time,
-something that can be tracked through changes.
+> Something that has an identity, something that can be tracked through time,
+> something that can be tracked through changes.
+
+> Something that has a lifecycle and can be distinguished from other entities, even if they have the same attributes.
 
 [[domain-driven-rails]]
-
+[[202306292247 ddd-full-cycle]]
